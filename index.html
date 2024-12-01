@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color:teal;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            background-image: url("navimg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size:cover;
+           
+            /* color: teal; */
+            
+        }
+        *{
+            box-sizing: border-box;
+        }
+        div.logo{
+            float: left;
+            font-size: 30px;
+
+        }
+        div.item{
+            float: right;
+        }
+        div li{
+            display: inline-block;
+            list-style-type: none;
+            padding: 23px 20px;
+            font-size: 20px;
+        } 
+        .container{
+            padding: 0px 150px;
+            position: absolute;
+            background-color: coral;
+          
+            
+            width: 100%;
+        }
+        .logo,.item{
+            cursor: pointer;
+        }
+        /* .slider{
+            width: 205px;
+            height: 3px;
+            position: absolute;
+            top: 65px;
+            background-color: red;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            /* bottom: 0; */
+            /* display: none; */ 
+        /* }
+     .logo:hover ~ .slider{
+        display: block;
+        animation: 2s linear;
+     } */
+     /* .item>ul:hover.slider:not(.logo){
+        display: block;
+        animation: 2s linear;
+        position: absolute;
+        overflow: visible;
+     } */
+   
+     
+    
+    
+    </style>
+</head>
+<body>
+       <div class="container">
+             <div class="logo">
+             <p>MIT ACADEMY</p>
+             </div>
+      
+            <div class="item">
+
+              <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>SERVICE</li>
+              </ul>
+            </div>
+            <div class="slider"></div>
+        </div>
+</body>
+</html>
